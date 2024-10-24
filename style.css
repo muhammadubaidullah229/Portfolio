@@ -724,4 +724,20 @@ footer {
   .inputs div {
     gap: 12px;
   }
+
+  .social-icons {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .social-icons a {
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 24px;
+    color: #333; /* Default color */
+  }
+
+  .social-icons a:hover {
+    color: #0073b1; /* Example hover effect */
+  }
 }
