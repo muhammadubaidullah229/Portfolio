@@ -114,7 +114,6 @@ header img {
   font-weight: 400;
   line-height: 52px;
   text-align: left;
- 
 }
 
 .my_recent_work .Recent {
@@ -122,12 +121,13 @@ header img {
   flex-direction: column;
   gap: 40px;
 }
-.Stories{
+
+.Stories {
   padding-top: 80px;
 }
 
- .Multi-Post .Stories img {
-  padding-top: 80px; 
+.Multi-Post .Stories img {
+  padding-top: 80px;
 }
 
 .my_recent_work .Multi-Post {
@@ -136,14 +136,15 @@ header img {
   gap: 12px;
 }
 
- .Stories .content h2 {
+.Stories .content h2 {
   font-family: Crete Round, sans-serif;
   font-size: 32px;
   font-weight: 400;
   line-height: 44px;
   text-align: left;
 }
- .Multi-Post .content{
+
+.Multi-Post .content {
   display: flex;
   flex-direction: column;
   gap: 12px;
@@ -167,7 +168,7 @@ header img {
   text-align: left;
 }
 
-.Multi-Post .content >button {
+.Multi-Post .content > button {
   font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: 17px;
   font-weight: 700;
@@ -232,10 +233,9 @@ header img {
   line-height: 20px;
   text-align: left;
   border: none;
-  
 }
 
-.cards>button {
+.cards > button {
   width: 100%;
   height: 48px;
   font-family: Inter, sans-serif;
@@ -263,15 +263,13 @@ header img {
    */
   background: #1c1a19;
   background-image: url('icons/Frame.png');
-    background-repeat: no-repeat;
-    background-position-x: right;
-    background-position-y: bottom;
-    background-size: 45%;
-   
- 
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: bottom;
+  background-size: 45%;
 }
-.about_me .content
-{
+
+.about_me .content {
   display: flex;
   flex-direction: column;
   row-gap: 24px;
@@ -331,6 +329,7 @@ header img {
   background: #1c1a19;
   color: #fff;
 }
+
 .skills .language {
   display: flex;
   flex-direction: column;
@@ -338,10 +337,12 @@ header img {
   align-items: center;
   gap: 24px;
 }
+
 .skills .language div {
   display: flex;
   flex-direction: row;
   align-items: center;
+
   /* text-align: center; */
   justify-content: center;
   gap: 12px;
@@ -360,8 +361,6 @@ header img {
   list-style: none;
 }
 
-
-
 .skills .language ul li {
   color: #fff;
   font-family: Inter, sans-serif;
@@ -370,7 +369,6 @@ header img {
   line-height: 42.67px;
   text-align: center;
   row-gap: 12px;
-
 }
 
 /* form_section */
@@ -398,10 +396,12 @@ form .inputs div input {
   border-bottom: 1px solid #979493;
   padding: 15px 16px;
 }
-form .inputs div  {
+
+form .inputs div {
   display: flex;
- flex-direction: row;
+  flex-direction: row;
 }
+
 form .inputs input {
   height: 48px;
   outline: none;
@@ -473,7 +473,8 @@ footer {
   .toolbar ul {
     display: none;
   }
-  #lastName{
+
+  #lastName {
     display: none;
   }
 }
@@ -489,12 +490,10 @@ footer {
     list-style-type: none;
     display: flex;
     flex-direction: row;
-
   }
 
   .toolbar ul li {
     margin-inline: 8px;
-
   }
 
   .toolbar div {
@@ -507,7 +506,7 @@ footer {
     justify-content: left;
     align-items: center;
     flex-direction: row-reverse;
-    padding: 120px 0px;
+    padding: 120px 0;
     background-image: url('/icons/d_title_bg.png');
     background-repeat: no-repeat;
     background-position-x: right;
@@ -526,7 +525,6 @@ footer {
     font-size: 72px;
     font-weight: 400;
     line-height: 81.5px;
-
   }
 
   .title .content h2 {
@@ -538,7 +536,6 @@ footer {
 
   .title .content {
     width: 566px;
-    
   }
 
   .title .content p {
@@ -547,70 +544,74 @@ footer {
     font-weight: 400;
     line-height: 32px;
     text-align: left;
-    color: #F4F5F7;
+    color: #f4f5f7;
   }
+
   /* my recent eork */
-  .my_recent_work
-  {
+  .my_recent_work {
     padding: 113px 172px;
   }
-  
-  .my_recent_work .Recent{
+
+  .my_recent_work .Recent {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     gap: 24px;
-  
+
     /* padding: 0px c
     12px; */
   }
-   .Recent hr{
-   color: #000;
-   width: 70%;
+
+  .Recent hr {
+    color: #000;
+    width: 70%;
   }
-   .Recent h2{
-    padding: 0px;
+
+  .Recent h2 {
+    padding: 0;
   }
+
   /* Multi-Post */
-  .Stories
-  {
+  .Stories {
     display: flex;
     flex-direction: row;
     justify-content: center;
     gap: 24px;
-    
   }
-  .Stories img
-  {
-   width: 684;
-   height: 448px;
 
+  .Stories img {
+    width: 684;
+    height: 448px;
   }
+
   .Stories .content h2 {
-
     font-size: 40px;
-     line-height: 52px;    
+    line-height: 52px;
   }
-  .p_tag {   
-font-size: 20px;
-font-weight: 400;
-line-height: 28px;
+
+  .p_tag {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
   }
+
   /* .card_section */
-  .card_section{
+  .card_section {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, auto); 
-   row-gap: 12px;
-   column-gap: 12px;
+    grid-template-rows: repeat(2, auto);
+    row-gap: 12px;
+    column-gap: 12px;
   }
+
   .card_section .cards {
     width: 369px;
     height: 435px;
     background-image: url(icons/card\ bg.png);
     position: relative;
   }
+
   .cards .content {
     padding: 8px 16px;
     margin-top: 100px;
@@ -618,107 +619,109 @@ line-height: 28px;
     flex-direction: column;
     gap: 12px;
   }
+
   /* .about_me */
-  .about_me{
+  .about_me {
     background-image: url('icons/aboutme_bg.png');
     background-repeat: no-repeat;
     background-position-x: right;
     background-position-y: center;
     background-size: 35%;
-    padding: 0px 142px;
-    row-gap: 0px;
+    padding: 0 142px;
+    row-gap: 0;
     display: block;
     height: 596px;
   }
-  .about_me .content{
-    padding: 130px 0px;
+
+  .about_me .content {
+    padding: 130px 0;
     width: 540px;
     display: flex;
-  flex-direction: column;
-  
+    flex-direction: column;
   }
-  .about_me .content h1{
+
+  .about_me .content h1 {
     line-height: 81.5px;
   }
-  .about_me .content p{
-   
+
+  .about_me .content p {
     font-size: 20px;
-    
-  color: #F4F5F7;
+    color: #f4f5f7;
+  }
 
+  .line {
+    width: 100%;
+    color: #fff;
+    top: 20px;
+    margin-top: 40px;
+  }
 
-    }
-    .line {
-      width: 100%;
-      color: #fff;  
-      top: 20px;  
-      margin-top: 40px;
-    
-    }
-    /* .skills
+  /* .skills
      */
-     .skills {
-        display: flex;
-      flex-direction: row;
-      justify-content: space-around;
-     
-       gap: 24px;
-  
-    }
-    .skills .language {
-      display: flex;
-      flex-direction: column;
-      justify-content: left;
-      align-items:flex-start;
-      gap: 24px;
-    }
-    .skills .language div {
-      display: flex;
-      flex-direction: row;
-      align-items:center;
-      text-align:left;
-      justify-content: left;
-        
-    }
-    .skills .language ul li {
-      color: #FFFFFF;
-        font-family: Inter, sans-serif;
-      font-size: 22px;
-      font-weight: 400;
-      line-height: 42.67px;
-      text-align:left;
-      row-gap: 12px;
-    
-      /* padding: 0px 12px; */
-    
-      /* margin: 24px; */
-    }
-    /* .form_section  */
-    .form_section {
-      display: flex;
-      flex-direction: row;
-      padding: 80px 142px 100px 142px;
-      gap: 58px;
-    }
-    
-    .form_section p{
-      width: 420px;
-      font-family: Inter;
-      font-size: 40px;
-      font-weight: 700;
-      line-height: 52px;
-      text-align: left;   
-      }
-      #lastName{
-        display: block;
-      }
-      .inputs {
-        width: 684px;
-        padding-top: 60px;
-      }
-      .inputs div{
-    
-        gap: 12px;
-       
-      }
-    }
+  .skills {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 24px;
+  }
+
+  .skills .language {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: flex-start;
+    gap: 24px;
+  }
+
+  .skills .language div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: left;
+    justify-content: left;
+  }
+
+  .skills .language ul li {
+    color: #fff;
+    font-family: Inter, sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 42.67px;
+    text-align: left;
+    row-gap: 12px;
+
+    /* padding: 0px 12px; */
+
+    /* margin: 24px; */
+  }
+
+  /* .form_section  */
+  .form_section {
+    display: flex;
+    flex-direction: row;
+    padding: 80px 142px 100px 142px;
+    gap: 58px;
+  }
+
+  .form_section p {
+    width: 420px;
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 52px;
+    text-align: left;
+  }
+
+  #lastName {
+    display: block;
+  }
+
+  .inputs {
+    width: 684px;
+    padding-top: 60px;
+  }
+
+  .inputs div {
+    gap: 12px;
+  }
+}
