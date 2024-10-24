@@ -1,0 +1,724 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* max-width: 375px; */
+  margin: 0 auto;
+}
+
+.about_me p {
+  color: #f4f5f7;
+}
+
+.form_section p {
+  font-family: Inter, sans-serif;
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 44px;
+  text-align: center;
+  color: #172b4d;
+  align-content: center;
+}
+
+.toolbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 24px;
+  color: white;
+  background: #3c3a39;
+}
+
+header {
+  font-family: Poppins, sans-serif;
+}
+
+header img {
+  font-size: larger;
+  cursor: pointer;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  background: #000;
+  padding: 120px 24px;
+  gap: 12px;
+  color: #fff;
+  background-image: url('Illustration.png');
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: 225px;
+  background-size: 40%;
+}
+
+.title h1 {
+  color: #ff6b00;
+  font-family: 'Crete Round', sans-serif;
+  font-weight: normal;
+  font-size: 56px;
+  line-height: 64px;
+  letter-spacing: 0.3px;
+  text-align: left;
+}
+
+.title h2 {
+  font-family: Roboto, sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  text-align: left;
+  color: #fff5e1;
+}
+
+.title p {
+  font-family: Poppins, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: left;
+  color: #fff;
+}
+
+.title .content {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.title div i {
+  margin-inline: 6px;
+  font-size: large;
+  cursor: pointer;
+}
+
+.title .brands {
+  padding-top: 8px;
+}
+
+/* my_recent_work */
+.my_recent_work {
+  padding: 120px 24px;
+}
+
+.my_recent_work .Recent h2 {
+  font-size: 40px;
+  font-family: Crete Round, sans-serif;
+  font-weight: 400;
+  line-height: 52px;
+  text-align: left;
+ 
+}
+
+.my_recent_work .Recent {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.Stories{
+  padding-top: 80px;
+}
+
+ .Multi-Post .Stories img {
+  padding-top: 80px; 
+}
+
+.my_recent_work .Multi-Post {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+ .Stories .content h2 {
+  font-family: Crete Round, sans-serif;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 44px;
+  text-align: left;
+}
+ .Multi-Post .content{
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.btns {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+}
+
+.btns button {
+  padding: 10px 12px;
+  border: 1px solid #8993a4;
+  background: #fff;
+  font-family: Inter, sans-serif;
+  color: #091e42;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+}
+
+.Multi-Post .content >button {
+  font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  height: 48px;
+  width: 124px;
+  background-color: #ff6b00;
+  color: #fff;
+  border: none;
+}
+
+/* card_section */
+.card_section {
+  display: grid;
+  grid-template-columns: 100%;
+  row-gap: 12px;
+}
+
+.card_section .cards {
+  width: 327px;
+  height: 386px;
+  background-image: url(icons/card\ bg.png);
+  position: relative;
+}
+
+.cards .content {
+  padding: 8px 16px;
+  margin-top: 64px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.card_section .cards h2 {
+  font-family: Crete Round, sans-serif;
+  color: #fff;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 44px;
+  text-align: left;
+}
+
+.card_section .cards p {
+  color: #fff;
+}
+
+.btns_Cards {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+}
+
+.btns_Cards button {
+  background: #ffffff3d;
+  padding: 10px 12px;
+  font-family: Inter, sans-serif;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: left;
+  border: none;
+  
+}
+
+.cards>button {
+  width: 100%;
+  height: 48px;
+  font-family: Inter, sans-serif;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  background-color: #ff6b00;
+  color: #fff;
+  border: none;
+  outline: none;
+  position: absolute;
+  bottom: 0;
+}
+
+/* about_me */
+.about_me {
+  padding: 120px 24px 0 24px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+
+  /* background-color: #000;
+   */
+  background: #1c1a19;
+  background-image: url('icons/Frame.png');
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: bottom;
+    background-size: 45%;
+   
+ 
+}
+.about_me .content
+{
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+}
+
+.about_me .content h1 {
+  font-family: Crete Round, sans-serif;
+  font-size: 72px;
+  font-weight: 400;
+  line-height: 88px;
+  letter-spacing: 0.3700000047683716px;
+  text-align: left;
+  color: #ff6b00;
+}
+
+.p_tag {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+}
+
+.about_me .content button {
+  font-family: Inter, sans-serif;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  height: 48px;
+  width: 156px;
+  background-color: #ff6b00;
+  color: #fff;
+  border: none;
+}
+
+.line {
+  width: 327px;
+  color: #fff;
+  top: 9px;
+  margin-top: 55%;
+}
+
+/* skills */
+.skills {
+  /* border-bottom: 1px solid white;
+  border-bottom-width: 3px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  padding: 120px 24px 70px 24px;
+  gap: 24px;
+
+  /* background-color: #000; */
+  background: #1c1a19;
+  color: #fff;
+}
+.skills .language {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+.skills .language div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* text-align: center; */
+  justify-content: center;
+  gap: 12px;
+  width: 224px;
+}
+
+.skills .language div h2 {
+  font-family: Inter, sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 44px;
+  text-align: left;
+}
+
+.skills .language ul {
+  list-style: none;
+}
+
+
+
+.skills .language ul li {
+  color: #fff;
+  font-family: Inter, sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 42.67px;
+  text-align: center;
+  row-gap: 12px;
+
+}
+
+/* form_section */
+.form_section {
+  display: flex;
+  flex-direction: column;
+  padding: 80px 24px;
+  gap: 58px;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  justify-content: center;
+  align-items: left;
+}
+
+form .inputs div input {
+  height: 48px;
+  outline: none;
+  width: 100%;
+  font-size: 15px;
+  border: none;
+  border-bottom: 1px solid #979493;
+  padding: 15px 16px;
+}
+form .inputs div  {
+  display: flex;
+ flex-direction: row;
+}
+form .inputs input {
+  height: 48px;
+  outline: none;
+  width: 100%;
+  font-size: 15px;
+  border: none;
+  border-bottom: 1px solid #979493;
+  padding: 15px 16px;
+}
+
+input::placeholder {
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #979493;
+}
+
+textarea {
+  height: 114px;
+  padding: 12px;
+  width: 100%;
+  resize: none;
+  border: none;
+  outline: none;
+  background-color: #f7f5f3;
+  font-size: 18px;
+}
+
+textarea::placeholder {
+  font-family: Inter, sans-serif;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #3c3a39;
+}
+
+.inputs button {
+  font-family: Inter, sans-serif;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  height: 48px;
+  width: 135px;
+  padding: 12px;
+  background-color: #ff6b00;
+  color: #fff;
+  border: none;
+}
+
+/* .brands */
+footer {
+  height: 72px;
+  border-top: 1px solid #dfe1e6;
+}
+
+.brand {
+  padding: 16px 88px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (min-width: 368px) {
+  .toolbar ul {
+    display: none;
+  }
+  #lastName{
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .toolbar {
+    height: 72px;
+    padding: 16px 142px;
+  }
+
+  .toolbar ul {
+    /* display: block; */
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+
+  }
+
+  .toolbar ul li {
+    margin-inline: 8px;
+
+  }
+
+  .toolbar div {
+    display: none;
+  }
+
+  /* title  */
+  .title {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-direction: row-reverse;
+    padding: 120px 0px;
+    background-image: url('/icons/d_title_bg.png');
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: top;
+    background-size: 35%;
+    gap: 60px;
+  }
+
+  .title div {
+    display: flex;
+    flex-direction: column;
+    padding-left: 24px;
+  }
+
+  .title .content h1 {
+    font-size: 72px;
+    font-weight: 400;
+    line-height: 81.5px;
+
+  }
+
+  .title .content h2 {
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 44px;
+  }
+
+  .title .content {
+    width: 566px;
+    
+  }
+
+  .title .content p {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left;
+    color: #F4F5F7;
+  }
+  /* my recent eork */
+  .my_recent_work
+  {
+    padding: 113px 172px;
+  }
+  
+  .my_recent_work .Recent{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+  
+    /* padding: 0px c
+    12px; */
+  }
+   .Recent hr{
+   color: #000;
+   width: 70%;
+  }
+   .Recent h2{
+    padding: 0px;
+  }
+  /* Multi-Post */
+  .Stories
+  {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 24px;
+    
+  }
+  .Stories img
+  {
+   width: 684;
+   height: 448px;
+
+  }
+  .Stories .content h2 {
+
+    font-size: 40px;
+     line-height: 52px;    
+  }
+  .p_tag {   
+font-size: 20px;
+font-weight: 400;
+line-height: 28px;
+  }
+  /* .card_section */
+  .card_section{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, auto); 
+   row-gap: 12px;
+   column-gap: 12px;
+  }
+  .card_section .cards {
+    width: 369px;
+    height: 435px;
+    background-image: url(icons/card\ bg.png);
+    position: relative;
+  }
+  .cards .content {
+    padding: 8px 16px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  /* .about_me */
+  .about_me{
+    background-image: url('icons/aboutme_bg.png');
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: center;
+    background-size: 35%;
+    padding: 0px 142px;
+    row-gap: 0px;
+    display: block;
+    height: 596px;
+  }
+  .about_me .content{
+    padding: 130px 0px;
+    width: 540px;
+    display: flex;
+  flex-direction: column;
+  
+  }
+  .about_me .content h1{
+    line-height: 81.5px;
+  }
+  .about_me .content p{
+   
+    font-size: 20px;
+    
+  color: #F4F5F7;
+
+
+    }
+    .line {
+      width: 100%;
+      color: #fff;  
+      top: 20px;  
+      margin-top: 40px;
+    
+    }
+    /* .skills
+     */
+     .skills {
+        display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+     
+       gap: 24px;
+  
+    }
+    .skills .language {
+      display: flex;
+      flex-direction: column;
+      justify-content: left;
+      align-items:flex-start;
+      gap: 24px;
+    }
+    .skills .language div {
+      display: flex;
+      flex-direction: row;
+      align-items:center;
+      text-align:left;
+      justify-content: left;
+        
+    }
+    .skills .language ul li {
+      color: #FFFFFF;
+        font-family: Inter, sans-serif;
+      font-size: 22px;
+      font-weight: 400;
+      line-height: 42.67px;
+      text-align:left;
+      row-gap: 12px;
+    
+      /* padding: 0px 12px; */
+    
+      /* margin: 24px; */
+    }
+    /* .form_section  */
+    .form_section {
+      display: flex;
+      flex-direction: row;
+      padding: 80px 142px 100px 142px;
+      gap: 58px;
+    }
+    
+    .form_section p{
+      width: 420px;
+      font-family: Inter;
+      font-size: 40px;
+      font-weight: 700;
+      line-height: 52px;
+      text-align: left;   
+      }
+      #lastName{
+        display: block;
+      }
+      .inputs {
+        width: 684px;
+        padding-top: 60px;
+      }
+      .inputs div{
+    
+        gap: 12px;
+       
+      }
+    }
